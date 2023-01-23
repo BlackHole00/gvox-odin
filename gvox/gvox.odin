@@ -5,7 +5,7 @@ import "core:c"
 when ODIN_OS == .Windows do foreign import gvox "gvox.lib"
 // else when ODIN_OS == .Linux do foreign import gvox "gvox.a"
 // else when ODIN_OS == .Darwin do foreign import gvox "gvox.a"
-else do #panic("Not yet supported. Use @indows or provide your own gvox library file.")
+else do #panic("Not yet supported. Use Windows or provide your own gvox library file.")
 
 Result :: enum {
     SUCCESS                     =  0,

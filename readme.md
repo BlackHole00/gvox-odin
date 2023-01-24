@@ -1,6 +1,6 @@
 # gvox-odin
 
-This repo contains Odin bindings for the [gvox library](https://github.com/GabeRundlett/gvox).
+This repo contains Odin bindings for the [gvox library](https://github.com/GabeRundlett/gvox).  
 Please note that this bindings are currently untested and hand-made (so I might need some time to keep the repo synched 
 with the mainstream gvox library).
 

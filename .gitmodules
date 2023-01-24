@@ -1,0 +1,3 @@
+[submodule "gvox/_gvox"]
+	path = gvox/_gvox
+	url = https://github.com/GabeRundlett/gvox

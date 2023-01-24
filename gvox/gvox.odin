@@ -14,14 +14,14 @@ Result :: enum {
     ERROR_INVALID_FORMAT        = -3,
 }
 
-VoxVoxel :: struct {
+Voxel :: struct {
     color: [3]f32,
     id: u32,
 }
 
 SceneNode :: struct {
     size_x, size_y, size_z: u64,
-    voxels: [^]VoxVoxel,
+    voxels: [^]Voxel,
 }
 
 Scene :: struct {

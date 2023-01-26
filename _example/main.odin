@@ -1,6 +1,6 @@
 package main
 
-import "../gvox"
+import gvox ".."
 
 main :: proc() {
     gvox_ctx := gvox.create_context()

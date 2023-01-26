@@ -8,11 +8,11 @@ IF NOT %ERRORLEVEL%==9009 (
     SET "CMAKE=C:\Program Files\cmake\bin\cmake.exe"
 )
 
-CD _gvox
+CD _gvox_source
 
 "%CMAKE%" . -A x64 -D GVOX_BUILD_FOR_ODIN=1
 "%CMAKE%" --build . --config Release
 
 CD ..
 
-COPY _gvox\Release\gvox.lib gvox.lib
+COPY _gvox_source\Release\gvox.lib gvox.lib

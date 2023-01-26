@@ -26,7 +26,7 @@ git clone --recursive https://github.com/BlackHole00/gvox-odin your/libraries/fo
 ```
 Then, to build the gvox library, use the following commands:
 ```cmd
-cd your\libraries\folder\gvox-odin
+cd your\libraries\folder\gvox
 prepare_gvox.bat
 ```
 If everything has been done correctly you should be able include the bindings in your odin codebase using `import "shared:gvox"` and build it without getting any linker errors.
